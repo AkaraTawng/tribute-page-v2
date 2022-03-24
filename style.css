@@ -1,0 +1,708 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Handlee&family=Marck+Script&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+
+
+
+
+
+/* Internal Nav Links */
+
+#in-nav-links{
+    background-image: url(img/img40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    top: 0;
+    font-family: 'source code pro', monospace;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 1;
+    transition: .3 ease;
+    transition-property: background-color;
+    border: solid black 2px;
+
+
+    
+}
+
+#top-section hr{
+    margin-top: 60px;
+    
+}
+
+#top-section{
+    margin-top: 200px;
+}
+
+
+
+
+
+#in-nav-links::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+
+.link1{
+    color: white;
+    font-size: 13px; 
+    font-weight: 700;
+    text-decoration: none;
+    border: solid white 1px;
+    padding:10px;
+   margin: 10px;
+    transition: all 0.2s linear;
+}
+
+.link1:hover{
+    background-color:#6b696a;
+}
+
+.link1:active {
+    color: crimson;
+}
+
+
+
+
+/* End Internal Nav Links */
+
+
+
+
+
+
+#scroll-to-top{
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    font-family: 'source code pro', monospace;
+    border: none;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 10px;
+    background-color:#c9c9c9;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+        
+}
+
+
+
+#scroll-to-top:hover{
+    background-color: black;
+    color: white;
+    transition: ease 0.6s;
+}
+
+#scroll-to-top:visited{
+    text-decoration: none;
+    
+}
+
+#scroll-to-top:active{
+    background-color: black;
+    color: crimson;
+    transition: ease 0.5s;
+
+    
+}
+
+
+
+#top-area h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'marck script', cursive;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-shadow: 0.8px 0.8px 1.5px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'marck script', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+/*---------images-------*/
+
+body {
+    background-image: url("img/white-waves.png");
+  
+}
+
+.styleclass img{
+    border-radius: 50px;
+   
+    
+   
+
+}
+
+#top-section img{
+   
+    width: 600px;
+    display: block;
+    margin: auto;
+    width: 250px;
+    box-shadow: #333 2px 2px 2px;
+    border: solid #333 1.5px;
+    max-width: 100%;
+}
+
+#map img{
+    
+    width: 550px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    size: 300px;
+    box-shadow: #333 2px 2px 2px;
+    border: solid #333 1.5px;
+    max-width: 100%;
+    
+   
+}
+
+
+
+
+
+
+    
+    
+
+
+.styleclass #img1 /*London Harbor*/{
+    border: solid #333 1.5px;
+    max-width: 100%;
+   
+    
+
+    
+}
+
+.styleclass #img2 /*Painting Bangkok Harbor*/{
+    float: left;
+    width: 613px;
+    height: 500px;
+    margin-left: 4px;
+    border: solid  #333 1.5px;
+    box-shadow: #333 2px 2px 2px;
+    margin-bottom: 40px;
+
+}
+
+.styleclass #img3 /*Photograph Bangkok Harbor*/{
+    float: right;
+   width: 613px;
+   height: 500px;
+   margin-right: 4px;
+   border: solid  #333 1.5px;
+   box-shadow: #333 2px 2px 2px;
+   margin-bottom: 40px;
+}
+
+
+.styleclass #img4 /*Ayutthaya Budhha*/{
+    border: solid  #333 1.5px;
+   box-shadow: #333 2px 2px 2px;
+   height: 450px;
+   width: 400px;
+   margin-right: 10;
+    
+}
+
+.styleclass #ayutemp{
+    border: solid  #333 1.5px;
+    box-shadow: #333 2px 2px 2px;
+    height: 450px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.styleclass #buddhahead{
+    border: solid  #333 1.5px;
+    box-shadow: #333 2px 2px 2px;
+    height: 450px;
+    width: 400px;
+    float: right;
+    margin-left: 10px;
+    
+}
+
+#cambodia img /*Cambodians Eating*/{
+    border: solid  #333 1.5px;
+   box-shadow: #333 2px 2px 2px;
+   width: 610px;
+   margin-left: 5px;
+   
+}
+
+#angkor .angkorgrid{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr ;
+    
+    
+}
+
+#cambodia .grid-container img{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+  
+}
+
+.grid-container #farmer{
+    width: 610px;
+    margin-left: 16px;
+    height: 403px;
+}
+
+
+#angkor img /*Girls Dancing*/{
+    border: solid  #333 1.5px;
+   box-shadow: #333 2px 2px 2px;
+
+   
+    
+}
+
+
+.angkorgrid #item1{ /*Girls Dancing*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 650px;
+    height: 660px;  
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.angkorgrid #item2{ /*Photographer*/
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 20px;
+    width: 550px;
+    height: 320px;
+    
+}
+
+.angkorgrid #item5{ /* Prayers*/
+grid-row: 1;
+grid-column: 2;
+width: 550px;
+height: 320px;
+margin-top: 360px;
+}
+
+.angkorgrid #item3{ /* Dancers Posing*/
+grid-column: 1;
+grid-row: 2;
+margin-left: 10px;
+height: 368px;
+width: 645px;
+
+
+}
+
+.angkorgrid #item4{ /*Elephant Riders*/
+width: 550px;
+grid-column: 2;
+grid-row: 2;
+
+
+
+}
+
+
+
+#lao img /*Mouhot Meeting in Village*/{
+    border: solid  #333 1.5px;
+    box-shadow: #333 2px 2px 2px;
+    width: 700px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+
+   
+}
+
+#dl img /*Tomb*/{
+    border: solid  #333 1.5px;
+    box-shadow: #333 2px 2px 2px;
+    height: 400px;
+   
+}
+
+.exp #imagex1 {
+    float: right;
+    height: 450px;
+    width: 32%;
+    box-shadow: #333 2px 2px 2px;
+
+}
+
+.exp #imagex2 {
+    float: left;
+    height: 450px;
+    width: 32%;
+    box-shadow: #333 2px 2px 2px;
+
+}
+
+.exp #imagex3 {
+    height: 450px;
+    width: 32%;
+    box-shadow: #333 2px 2px 2px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+
+}
+
+.grid-container #jersey{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+    }
+
+    .grid-container #birdseye{
+        margin-left: 60px;
+    }
+
+
+    .grid-container #coastline{
+        margin-right: 60px;
+    }
+    .styleclass #img1{
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 35px;
+    }
+
+    .tombgrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr)
+        
+    }
+
+    .tombgrid #tomb1 /*tomb surrounded by jungle*/ {
+        grid-row: 1;
+        margin-left: 180px;
+
+    }
+    
+    
+    .tombgrid #tomb2 /*other angle of tomb*/ {
+        grid-row: 1;
+        margin-left: -320px;
+        width: 590px;
+        
+
+    }
+    
+    
+    .tombgrid #tomb3 /*river*/ {
+        margin-left: 180px;
+        width: 600px;
+        margin-top: 8px;
+
+    }
+    
+    
+    .tombgrid #tomb4 /*Statue*/ {
+        margin-left: 15px;
+        margin-top: 8px;
+
+    }
+
+
+
+/*---------end images---------*/
+
+
+
+
+
+
+/*---------paragraph--------- */
+
+.styleclass p{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    letter-spacing: 0.2em;
+    line-height: 35px;
+    /* font-weight: 600; */
+    font-size: 14px;
+}
+
+#jersey p{
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+#greek p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ 
+#bkk{
+    margin-top: 75px;
+}
+
+.styleclass #october1 {
+    margin-bottom: 30px;
+}
+
+
+.styleclass #p3 {
+    margin-bottom: 45px;
+}
+
+.angkorparagraph {
+    margin-top: 40px;
+    
+}
+
+#laop2 {
+    padding-bottom: 35px;
+}
+/*---------end paragraph--------- */
+
+
+
+
+
+/* HR */
+
+#angkor hr{
+    margin-top: 30px;
+}
+
+
+
+
+/* End HR */
+
+
+
+
+
+
+
+/* ---------h3--------- */
+
+#early-life h3{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'marck script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    
+}
+
+#siam h3{
+    padding-left: 20px;
+    font-family: 'marck script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#cambodia h3{
+    padding-left: 20px;
+    font-family: 'marck script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#angkor h4{
+    font-family: 'marck script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#lao h3{
+    padding-left: 20px;
+    font-family: 'marck script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#dl h3{
+    padding-left: 20px;
+    font-family: 'marck script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ---------end h3--------- */
+
+
+.jersey{
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+#siam hr{
+    margin-top: 100px;
+}
+
+
+/* footer */
+
+
+
+.footertext{
+    border: 2px solid white;
+    padding: 10px;
+     color: white;
+     text-decoration: none;
+     display: flex;
+    align-items: center;
+    position: absolute;
+
+   
+    
+
+   
+    
+}
+
+.footer #tribute-link{
+    margin-top: 30px;
+    margin-left: 550px;
+    
+    
+   
+    
+
+}
+
+
+#footerlink2{
+    margin-top: 90px;
+    margin-left: 575px;
+  
+    
+
+    
+}
+
+
+.footer{
+    background-image: url(img/img40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    margin-top: 40px;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.footer::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+
+}
+
+.footertext::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+
+.footertext:hover{
+    background-color:#6b696a;
+}
+
+.footertext:active {
+    color: crimson;
+}
+
+
+/* end footer */
+
+
+/* Keyframes */
+
+
+
+
+
+
+
+/* End Keyframes */
+
