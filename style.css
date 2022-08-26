@@ -237,41 +237,28 @@ body {
     
 }
 
+#cambodia-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #cambodia img /*Cambodians Eating*/{
     border: solid  #333 1.5px;
    box-shadow: #333 2px 2px 2px;
-   width: 610px;
-   margin-left: 5px;
-   
+   width: 40rem;
+   height: 30rem;
 }
 
 #angkor .angkorgrid{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr ;
-    
-    
 }
-
-#cambodia .grid-container img{
-    display: grid;
-    grid-template-columns:repeat(2, 1fr);
-  
-}
-
-.grid-container #farmer{
-    width: 610px;
-    margin-left: 16px;
-    height: 403px;
-}
-
 
 #angkor img /*Girls Dancing*/{
     border: solid  #333 1.5px;
-   box-shadow: #333 2px 2px 2px;
-
-   
-    
+    box-shadow: #333 2px 2px 2px;
 }
 
 
